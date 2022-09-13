@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+
+@media screen and (min-width: 992px) {
+  #navbarNav {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+}
