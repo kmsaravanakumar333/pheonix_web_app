@@ -1,3 +1,11 @@
+.logo {
+  margin-top: -8px;
+  margin-right: -12px;
+  margin-left: -35px;
+  height: 60px;
+  width: auto;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -13,10 +21,85 @@ a {
 }
 
 
+.navbar-brand {
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+  background-color: #F56363;
+  color: white;
+  height: 38px;
+  border-radius: 8px;
+}
+
+.footer {
+  height: 50vh;
+  background-color: cadetblue;
+  padding: 3rem 3rem;
+}
+
+.social-icon {
+  height: 30px;
+}
+
+.social {
+  background-color: #F56363;
+  padding: 1rem;
+  margin: 0 1rem;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+
+.social:hover .social-icon {
+  filter: invert(94%) sepia(60%) saturate(6630%) hue-rotate(179deg) brightness(109%) contrast(109%);
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-name {
+  text-transform: none;
+  padding: 10px 0;
+}
+
+.link-name:hover {
+  color: aliceblue;
+}
+
 @media screen and (min-width: 992px) {
   #navbarNav {
     display: flex;
     align-items: center;
     justify-content: end;
+  }
+
+  .navbar {
+    background-color: aliceblue;
+    align-items: baseline;
+    height: 4.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .company-title {
+    text-align: center;
+  }
+
+  .social-icon {
+    height: 15px;
+  }
+
+  .social {
+    background-color: #F56363;
+    padding: .5rem;
+    margin: 0 .5rem;
+    width: 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
   }
 }
