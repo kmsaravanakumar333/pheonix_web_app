@@ -58,7 +58,7 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div style={{ textAlign: 'center', fontSize: '12px' }}>copyright</div>
+        <div style={{ textAlign: 'center', fontSize: '12px' }}>copyrights</div>
       </div>
     </div>
   )
