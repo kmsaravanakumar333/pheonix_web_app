@@ -1,0 +1,149 @@
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #095a55;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  top: 20;
+  bottom: 20;
+  width: 50%;
+  height: 100%;
+  background: #fff38e;
+  margin-right: 50rem;
+}
+.container {
+  position: relative;
+
+  min-height: 550px;
+  min-width: 1100px;
+  z-index: 500;
+}
+.container .contactInfo {
+  position: absolute;
+  top: 40px;
+  width: 350px;
+  height: calc(100% - 80px);
+  background: #095a55;
+  z-index: 1;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  font-size: 13px;
+}
+.container .contactForm {
+  position: absolute;
+  padding: 70px 50px;
+  padding-left: 250px;
+  margin-left: 150px;
+  width: calc(100% - 150px);
+  height: 100%;
+  background: #ffff;
+  /* box-shadow: 0 50px 50px rgba(0, 0, 0, 0.25); */
+}
+.icon1 {
+  margin-bottom: 17rem;
+}
+.envelope {
+  margin-top: 2rem;
+}
+.phone {
+  margin-top: 2rem;
+}
+.container .contactInfo h2 {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container .contactInfo .icon1 {
+  color: #fff38e;
+  cursor: pointer;
+}
+.container .contactInfo ul.sci {
+  position: relative;
+  display: flex;
+  margin-right: 5rem;
+}
+.container .contactInfo ul.sci li {
+  list-style: none;
+  margin-right: 15px;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+.container .contactForm h2 {
+  color: #0f3959;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container .contactForm .formBox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+.container .contactForm .formBox .inputBox {
+  position: relative;
+  margin-bottom: 35px;
+}
+.container .contactForm .formBox .inputBox.w50 {
+  width: 47%;
+}
+.container .contactForm .formBox .inputBox.w100 {
+  width: 100%;
+}
+.container .contactForm .formBox .inputBox input,
+.container .contactForm .formBox .inputBox textarea {
+  width: 100%;
+  resize: none;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 300;
+  color: #333;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #777;
+}
+.container .contactForm .formBox .inputBox textarea {
+  height: 120px;
+}
+.container .contactForm .formBox .inputBox span {
+  position: absolute;
+  padding: 5px 0;
+  left: 0;
+  pointer-events: none;
+  font-size: 18px;
+  font-weight: 300;
+  transition: 0.3s;
+}
+
+.container .contactForm .formBox .inputBox input:focus ~ span,
+.container .contactForm .formBox .inputBox input:valid ~ span,
+.container .contactForm .formBox .inputBox textarea:focus ~ span,
+.container .contactForm .formBox .inputBox textarea:valid ~ span {
+  transform: translateY(-20px);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #095a55;
+  font-weight: 500;
+}
+.container .contactForm .formBox .inputBox input[type="submit"] {
+  position: relative;
+  cursor: pointer;
+  background: #095a55;
+  color: #ffff;
+  border: none;
+  max-width: 150px;
+  padding: 12px;
+}
+.container .contactForm .formBox .inputBox input[type="submit"]:hover {
+  background: #0d948b;
+}
