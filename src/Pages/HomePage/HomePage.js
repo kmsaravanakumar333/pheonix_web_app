@@ -129,7 +129,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-        <div class="row align-items-center py-5 service-icon service">
+        <div class="row align-items-start py-5 service-icon service">
           <div class="col card-col card-col-1">
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
