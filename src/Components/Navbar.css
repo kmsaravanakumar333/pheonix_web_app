@@ -1,3 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  margin: 0;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.tile-name {
+  font-size: 14px;
+}
 .logo {
   margin-top: -8px;
   margin-right: -12px;
@@ -31,11 +50,9 @@ a {
   height: 38px;
   border-radius: 8px;
 }
-
-.footer {
-  height: 50vh;
-  background-color: cadetblue;
-  padding: 3rem 3rem;
+.nav-item:hover {
+  text-decoration: underline 2px;
+  text-underline-position: under;
 }
 
 .social-icon {
@@ -159,7 +176,9 @@ a {
     margin-right: 50px;
     margin-left: 10px !important;
   }
-
+  .tile-name {
+    font-size: 14px;
+  }
   .logo {
     width: 100px;
     height: 60px;
@@ -168,10 +187,6 @@ a {
 
   .tile-name {
     margin: 0 10px !important;
-  }
-
-  .nav-link {
-    margin: 0 10px;
   }
 }
 
@@ -185,9 +200,9 @@ a {
 
   .tile-name {
     margin: 0 30px !important;
+    font-size: 18px;
   }
-
   .nav-link {
-    margin: 0 26px;
+    margin-left: 20px;
   }
 }
