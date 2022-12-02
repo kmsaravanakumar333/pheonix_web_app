@@ -96,14 +96,16 @@ export default function HomePage() {
         </div>
       </div>
       <div className="title-1 py-3">OUR SERVICES</div>
-      <div class="container text-center">
-        <div class="row align-items-start service">
+      <div class="container text-center service-container">
+        <div class="row align-items-center service">
           <div class="col card-col card-col-1">
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={mobile} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Mobile Application Development</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1 ">
+                    Mobile Application Development
+                  </p>
                 </div>
               </div>
             </div>
@@ -112,8 +114,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={computer} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Web Application Development </p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Web Application Development </p>
                 </div>
               </div>
             </div>
@@ -122,20 +124,20 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={analysis} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Analysis and Re-engineering</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Analysis and Re-engineering</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="row align-items-center py-5 service-icon service">
+        <div class="row align-items-start py-5 service-icon service">
           <div class="col card-col card-col-1">
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={pencil} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">UI/UX Design</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">UI/UX Design</p>
                 </div>
               </div>
             </div>
@@ -144,8 +146,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={clapboard} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Branding Identity</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Branding Identity</p>
                 </div>
               </div>
             </div>
@@ -154,8 +156,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={bulb} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Creative Idea</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Creative Idea</p>
                 </div>
               </div>
             </div>
@@ -166,8 +168,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={usage} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Easy to Use</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Easy to Use</p>
                 </div>
               </div>
             </div>
@@ -176,8 +178,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={growth} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Dynamic Growth</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Dynamic Growth</p>
                 </div>
               </div>
             </div>
@@ -186,8 +188,8 @@ export default function HomePage() {
             <div class="card" style={{ width: "15rem", height: "10rem" }}>
               <div className="card-content">
                 <img src={headphone} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Friendly Support</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Friendly Support</p>
                 </div>
               </div>
             </div>
@@ -206,9 +208,9 @@ export default function HomePage() {
             >
               <div className="card-content">
                 <img src={mobile1} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">+91 9791770762</p>
-                  <p class="card-text">+91 9942027357</p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">+91 9791770762</p>
+                  <p class="card-text text-1">+91 9942027357</p>
                 </div>
               </div>
             </div>
@@ -220,9 +222,9 @@ export default function HomePage() {
             >
               <div className="card-content">
                 <img src={location} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text">Kalkurichi - 626 104 </p>
-                  <p class="card-text">Virudhunagar </p>
+                <div class="card-body body-card">
+                  <p class="card-text text-1">Kalkurichi - 626 104 </p>
+                  <p class="card-text text-1">Virudhunagar </p>
                 </div>
               </div>
             </div>
@@ -234,8 +236,8 @@ export default function HomePage() {
             >
               <div className="card-content">
                 <img src={mail} class="card-img-top" alt="" />
-                <div class="card-body">
-                  <p class="card-text email">
+                <div class="card-body body-card">
+                  <p class="card-text text-1 email">
                     pheonixsoftwaresolutions1009@gmail.com
                   </p>
                 </div>

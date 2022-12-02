@@ -2,6 +2,7 @@
   background-color: rgb(67, 220, 169);
   height: auto;
   width: 100vw;
+  padding: 3rem 3rem;
 }
 
 @media (min-width: 320px) {
