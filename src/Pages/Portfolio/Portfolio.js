@@ -1,5 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
+import Footer from "../../Components/Footer";
 
 export default function Portfolio() {
   return (
@@ -269,6 +270,7 @@ export default function Portfolio() {
           </div>
         </article>
       </div>
+      <Footer />
     </section>
   );
 }

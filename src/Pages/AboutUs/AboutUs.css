@@ -3,11 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* About page header */
+
 .header {
   background: url("../../Assets/about1.jpg") no-repeat center center/cover;
   width: 100vw;
   height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  margin-top: 70px;
 }
 .text-box {
   width: 80vw;
@@ -34,6 +38,9 @@
   color: #f56363;
   letter-spacing: 1px;
 }
+
+/* About page section 2nd-view */
+
 .article {
   margin-top: 40px;
 }
@@ -49,52 +56,83 @@
 }
 .primary-subtitle-1 {
   display: block;
+  font-size: 2.5vh;
 }
-.section {
-  margin: 80px auto;
+
+/* About page section 3rd-view */
+
+.about-section-3 {
+  width: 96vw;
+  margin: 10vh auto;
   text-align: center;
 }
-.card-section {
-  display: flex;
-  flex-direction: row;
-  gap: 50px;
-  width: 90vw;
-  margin: 30px auto;
+.about-card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3vw;
+  width: 80vw;
+  margin: 0 auto;
 }
-.card {
-  width: 300px !important;
-  height: auto !important;
-  border: none;
-}
-.icon-1 {
-  padding: 16px;
-}
-.about-footer {
-  margin: 30px;
-}
-.card-deck {
-  display: flex;
-  flex-direction: row;
-  gap: auto;
-  width: 90vw;
-  margin: 30px auto;
-  justify-content: center;
-}
-.card-img {
+.about-card {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  align-items: center;
-  width: 300px;
+  gap: 4vh;
 }
-.person-img {
-  width: 200px;
-  height: 200px;
+.about-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
 }
+.about-card-title {
+  font-size: 4vh;
+}
+.about-card-text {
+  font-size: 2.2vh;
+}
+
+/* About page section 4th-view */
+
+.about-footer {
+  margin: 10vh auto;
+  width: 96vw;
+}
+
 .primary-title-2 {
   display: block;
   margin: 10px auto;
   text-align: center;
+}
+
+.our-team {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5vh 3vw;
+  margin: 0 auto;
+}
+.our-team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding: 1.5vh 2vw;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  background-color: #fef6f6;
+  border-radius: 10px;
+}
+.team-member-img {
+  width: 13vw;
+  height: 26vh;
+  padding: 0.2vh;
+  border: 2px solid grey;
+}
+.team-member-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.8vh;
+}
+.team-member-posting {
+  font-size: 2vh;
 }
 
 @media (min-width: 320px) {
@@ -107,36 +145,6 @@
   .article {
     margin: 0;
   }
-  .card {
-    text-align: center;
-    justify-content: center;
-    width: 300px;
-  }
-  .section {
-    margin: 0;
-  }
-  .about-footer {
-    margin: 0;
-  }
-  .card-section {
-    flex-direction: column;
-    width: 80vw;
-    gap: 0;
-  }
-  .card-body,
-  .icon-1 {
-    width: 280px;
-    align-items: center;
-  }
-
-  .card-deck {
-    flex-direction: column;
-    width: 90vw;
-    text-align: center;
-  }
-  .card-img {
-    width: 90vw;
-  }
 }
 
 @media (min-width: 768px) {
@@ -146,34 +154,6 @@
   .sub-heading {
     font-size: 14px;
   }
-  .card-section {
-    flex-direction: row;
-    width: 80vw;
-    gap: 15px;
-  }
-  .card-body,
-  .icon-1 {
-    width: 136px;
-  }
-  .card-deck {
-    flex-direction: row;
-    width: 90vw;
-    text-align: center;
-    gap: auto;
-  }
-  .card-img {
-    width: 140px;
-  }
-  .person-img {
-    width: 120px;
-    height: 100px;
-  }
-  .card-title {
-    font-size: 14px;
-  }
-  .card-body {
-    padding: 16px 0;
-  }
 }
 @media (min-width: 1024px) {
   .main-heading {
@@ -182,72 +162,31 @@
   .sub-heading {
     font-size: 20px;
   }
-  .card-title {
-    font-size: 14px;
-  }
   .article {
     margin: 16px;
   }
   .header {
     margin-bottom: 40px;
   }
-  .section {
-    margin: 50px;
-  }
-  .about-footer {
-    margin: 16px;
-  }
-  .card-img,
-  .person-img {
-    width: 250px;
-  }
-  .card-body {
-    width: 200px;
-  }
-  .card-section {
-    gap: 34px;
-  }
-  .card-deck {
-    gap: 10px;
-  }
-  .person-img {
-    width: 200px !important;
-  }
-  .card-title,
-  .text-subject {
-    width: 200px;
-  }
-  .card {
-    text-align: start;
+  .team-member-img {
+    width: 13vw;
+    height: 36vh;
   }
 }
-@media (min-width: 1400px) {
-  .card-title,
-  .text-subject {
-    width: 200px;
+@media (min-width: 480px) and (max-width: 768px) {
+  .about-card-section {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .card-deck {
-    gap: 30px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .about-card-section {
+    grid-template-columns: 1fr;
   }
-  .card {
-    width: 300px !important;
+  .our-team {
+    grid-template-columns: 1fr;
   }
-  .card-section {
-    gap: auto;
-  }
-
-  .person-img {
-    width: 250px;
-  }
-  .card-img {
-    width: 300px;
-    align-items: center;
-  }
-  .card-body {
-    width: 300px;
-  }
-  .card-title,
-  .text-subject {
-    width: 280px;
+  .team-member-img {
+    width: 40vw;
+    height: 30vh;
   }
 }

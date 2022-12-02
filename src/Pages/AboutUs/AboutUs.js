@@ -1,5 +1,7 @@
 import React from "react";
 import "./AboutUs.css";
+import Footer from "../../Components/Footer";
+
 export default function AboutUs() {
   return (
     <section>
@@ -48,7 +50,7 @@ export default function AboutUs() {
               more place.
             </span>
             <br></br>
-            <span className="primary-subtitle-2">
+            <span className="primary-subtitle-1">
               At Databox, our mission is to make it as easy as possible for
               everyone in a company to monitor, analyze, and improve performance
               in one spot on any device.
@@ -56,9 +58,9 @@ export default function AboutUs() {
           </div>
         </div>
       </article>
-      <section className="section">
-        <div className="card-section">
-          <div class="card">
+      <section className="about-section-3">
+        <div className="about-card-section">
+          <div class="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,15 +123,15 @@ export default function AboutUs() {
                 ></polyline>
               </svg>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">TECHNOLOGY</h5>
-              <p class="card-text text-subject">
+            <div class="about-card-body">
+              <h5 class="about-card-title">TECHNOLOGY</h5>
+              <p class="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -149,15 +151,15 @@ export default function AboutUs() {
                 ></path>
               </svg>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">LIFESTYLE</h5>
-              <p class="card-text text-subject">
+            <div class="about-card-body">
+              <h5 class="about-card-title">LIFESTYLE</h5>
+              <p class="about-card-text text-subject">
                 This card has supporting text below as a natural lead-in to
                 additional content.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -251,15 +253,15 @@ export default function AboutUs() {
                 ></line>
               </svg>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">INFRASTRUCTURE</h5>
-              <p class="card-text text-subject">
+            <div class="about-card-body">
+              <h5 class="about-card-title">INFRASTRUCTURE</h5>
+              <p class="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
             </div>
           </div>
-          <div class="card">
+          <div class="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -345,9 +347,9 @@ export default function AboutUs() {
                 ></line>
               </svg>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">HOSPITALITY</h5>
-              <p class="card-text text-subject">
+            <div class="about-card-body">
+              <h5 class="about-card-title">HOSPITALITY</h5>
+              <p class="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -360,82 +362,53 @@ export default function AboutUs() {
           <h2 className="primary-title-2">Our Team</h2>
         </span>
         <br></br>
-        <div className="img-cards">
-          <div class="card-deck">
-            <div class="card-img">
-              <img
-                class="card-img-top person-img"
-                src="..."
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-subject">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <p class="card-text text-subject">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
+
+        <div className="our-team">
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
             </div>
-            <div class="card-img">
-              <img
-                class="card-img-top person-img"
-                src="..."
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-subject">
-                  This card has supporting text below as a natural lead-in to
-                  additional content.
-                </p>
-                <p class="card-text text-subject">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
+          </div>
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
             </div>
-            <div class="card-img">
-              <img
-                class="card-img-top person-img"
-                src="..."
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-subject">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-                <p class="card-text text-subject">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
+          </div>
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
             </div>
-            <div class="card-img">
-              <img
-                class="card-img-top person-img"
-                src="..."
-                alt="Card image cap"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text text-subject">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </p>
-                <p class="card-text text-subject">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </p>
-              </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
+          </div>
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
             </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
+          </div>
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
+            </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
+          </div>
+          <div className="our-team-members">
+            <div className="team-member-img">
+              <img class="member-img" src="..." alt="member-img" />
+            </div>
+            <div className="team-member-name">member name</div>
+            <div className="team-member-posting">member posting</div>
           </div>
         </div>
       </footer>
+      <Footer />
     </section>
   );
 }

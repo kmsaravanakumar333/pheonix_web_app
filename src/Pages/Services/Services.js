@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import Footer from "../../Components/Footer";
 
 import Uxui from "../../Assets/Ui ux development.jpg";
 import Webpage from "../../Assets/Webpage creation.jpg";
@@ -375,6 +376,7 @@ export default function Services() {
           </div>
         </article>
       </div>
+      <Footer />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 .portfolio-page {
-  width: 96vw;
+  width: 100vw;
   margin: 80px auto;
 }
 .portfolio-header {
@@ -10,7 +10,7 @@
 }
 .portfolio-header-text-box {
   position: absolute;
-  top: 34%;
+  top: 30%;
   left: 13%;
   padding: 2vw;
   width: 70vw;
@@ -24,7 +24,7 @@
 }
 .portfolio-header-body {
   font-size: 2vh;
-  color: #fff;
+  color: #f3baba;
   letter-spacing: 4px;
   word-spacing: 4px;
 }
