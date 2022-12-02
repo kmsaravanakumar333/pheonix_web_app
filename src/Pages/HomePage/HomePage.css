@@ -1,14 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .banner {
-  background-image: url('../../Assets/banner2.jpg');
+  background-image: url("../../Assets/banner2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 75vh;
+  width: auto;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
   text-align: center;
   font-weight: 600;
   color: darkslateblue;
@@ -16,12 +21,16 @@
   line-height: 4rem;
 }
 
+.title {
+  font-size: 50px;
+}
+
 .subtitle {
   font-size: 15px;
 }
 
 .btn-contact {
-  background-color: #F56363;
+  background-color: #f56363;
   border: none;
   border-radius: 10px;
   font-size: 30px;
@@ -31,7 +40,7 @@
 }
 
 .btn-send {
-  background-color: #F56363;
+  background-color: #f56363;
   border: none;
   border-radius: 10px;
   font-size: 20px;
@@ -53,7 +62,7 @@
 }
 
 .who-img {
-  margin-left: 17rem;
+  margin-left: 5rem;
 }
 
 .we-are-pro {
@@ -69,16 +78,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: #F56363;
+  border: #f56363;
   border-style: dashed;
   border-width: 2px;
   width: 9rem;
   padding: 1rem 0;
   border-radius: 10px;
-}
-
-p {
-  margin-bottom: 0 !important;
 }
 
 .tool-logo {
@@ -88,19 +93,20 @@ p {
 .card-img-top {
   height: 50px;
   width: 50px;
-  margin-top: 2rem;
+  margin-top: 1rem !important;
 }
 
 .card:hover .card-img-top {
-  filter: invert(58%) sepia(73%) saturate(1529%) hue-rotate(319deg) brightness(97%) contrast(97%);
+  filter: invert(58%) sepia(73%) saturate(1529%) hue-rotate(319deg)
+    brightness(97%) contrast(97%);
 }
 
 .card-col {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
 }
-
 
 .card-content {
   display: flex;
@@ -113,33 +119,328 @@ p {
   color: darkslateblue;
 }
 
+.service-container {
+  width: 98vw;
+  margin: 0 auto;
+}
 .card-1 {
   border: none;
+  height: 110px !important;
+  width: 180px !important;
+  align-items: center;
+}
+.card {
+  border: none;
+  height: 110px !important;
+  width: 180px !important;
+  align-items: center;
 }
 
+/* .text-1 {
+  text-align: center;
+} */
 
-@media screen and (max-width: 480px) {
+/* FOR MOBILE PHONES */
+
+@media (min-width: 320px) {
   .banner {
-    background-size: cover;
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .title {
     font-size: 20px;
-    line-height: normal;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.888);
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .btn-contact {
+    font-size: 18px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    margin: 5px 0;
   }
 
   .subtitle {
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.1;
+    color: #efafafe1;
+  }
+
+  .title-1 {
+    font-size: 30px;
   }
 
   .who-img {
-    margin-left: 0;
-    padding-left: 0 35px;
-    width: 100%;
+    margin: 0;
+    width: 260px;
+    margin-left: 35px;
   }
 
   .tools {
     margin-bottom: 1rem;
+    width: 132px;
   }
 
   .card-col-1 {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .service-icon {
+    padding: 16px !important;
+  }
+  .service {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+  }
+
+  .service-icons {
+    margin-bottom: 16px !important;
+  }
+  .q-3 {
+    font-size: 22px;
+    margin: 0;
+  }
+  .card-img-top {
+    height: 30px;
+    width: 30px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+  .btn-send {
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+  }
+
+  .card {
+    height: 110px !important;
+    width: 180px !important;
+  }
+
+  .card-img-top {
+    margin: 0;
+  }
+
+  .card-text {
+    font-size: 12px;
+    margin: 0;
+  }
+
+  .image {
+    margin-top: 0px;
+    width: 280px;
+    height: 200px;
+  }
+
+  .card-1 {
+    height: 118px !important;
+    width: 240px !important;
+  }
+}
+/* FOR LARGE MOBILE PHONES AND TABLETS */
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .form-control {
+    font-size: 12px;
+    width: 300px;
+  }
+
+  .p-name {
+    width: 300px;
+  }
+
+  .form-input {
+    width: 600px !important;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 2;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.888);
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .btn-contact {
+    font-size: 24px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    margin: 5px 0;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.1;
+    color: #efafafe1;
+  }
+
+  .title-1 {
+    font-size: 36px;
+  }
+
+  .tools {
+    margin-bottom: 1rem;
+    width: 148px;
+  }
+
+  .card {
+    margin-bottom: 2rem;
+    width: 160px !important;
+    height: 140px !important;
+  }
+
+  .service {
+    padding: 0 !important;
+    margin-bottom: 1rem;
+  }
+  .card-content {
+    width: 200px;
+  }
+}
+/* FOR SMALL LAPTOPS */
+@media (min-width: 768px) and (max-width: 1020px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+  }
+
+  .who-img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .card {
+    width: 160px !important;
+    height: 140px !important;
+  }
+
+  .service {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 720px;
+  }
+
+  .card-content {
+    width: 160px;
+    text-align: center;
+  }
+
+  .card-col {
+    margin-bottom: 1rem !important;
+    margin-right: 1rem;
+  }
+
+  .email {
+    font-size: 10px;
+  }
+
+  .email-tag {
+    width: 618px !important;
+  }
+
+  #exampleFormControlInput1 {
+    width: 300px;
+  }
+
+  #exampleFormControlTextarea1 {
+    width: 618px !important;
+  }
+}
+/* FOR LARGE LAPTOPS */
+@media (min-width: 1021px) and (max-width: 1440px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .who-img {
+    width: 340px;
+    margin-left: 80px;
+  }
+
+  .tools {
+    margin-right: 64px;
+    margin-left: 20px;
+  }
+
+  .card-col {
+    margin-bottom: 20px !important;
+  }
+
+  .card-content {
+    width: 250px;
+    text-align: center;
+  }
+  .body-card {
+    width: 200px !important;
+  }
+
+  .card {
+    width: 180px !important;
+    height: 140px !important;
+  }
+
+  .service {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+/* FOR DESKTOPS */
+@media (min-width: 1440px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 44px;
+    margin-bottom: 100px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .who-img {
+    width: 480px;
+    margin-left: 80px;
+  }
+
+  .subtitle-1 {
+    line-height: 2;
+    word-spacing: 1.5;
+  }
+  .card-content {
+    width: 300px;
+    text-align: center;
+  }
+  .body-card {
+    width: 250px !important;
   }
 }
