@@ -27,13 +27,13 @@ export default function AboutUs() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-6 h-6 icon"
+              className="w-6 h-6 icon"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.332A48.36 48.36 0 0012 9.75c-2.551 0-5.056.2-7.5.582V21M3 21h18M12 6.75h.008v.008H12V6.75z"
               />
             </svg>
@@ -60,7 +60,7 @@ export default function AboutUs() {
       </article>
       <section className="about-section-3">
         <div className="about-card-section">
-          <div class="about-card">
+          <div className="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -74,17 +74,17 @@ export default function AboutUs() {
                   d="M224,177.3V78.7a8.1,8.1,0,0,0-4.1-7l-88-49.5a7.8,7.8,0,0,0-7.8,0l-88,49.5a8.1,8.1,0,0,0-4.1,7v98.6a8.1,8.1,0,0,0,4.1,7l88,49.5a7.8,7.8,0,0,0,7.8,0l88-49.5A8.1,8.1,0,0,0,224,177.3Z"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></path>
                 <polyline
                   points="222.9 74.6 128.9 128 33.1 74.6"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></polyline>
                 <line
                   x1="128.9"
@@ -93,45 +93,45 @@ export default function AboutUs() {
                   y2="234.8"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <polyline
                   points="177 47.5 128 75.1 79 47.5"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></polyline>
                 <polyline
                   points="176 209 176 153.9 224 126.9"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></polyline>
                 <polyline
                   points="80 209 80 153.9 32 126.9"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></polyline>
               </svg>
             </div>
-            <div class="about-card-body">
-              <h5 class="about-card-title">TECHNOLOGY</h5>
-              <p class="about-card-text text-subject">
+            <div className="about-card-body">
+              <h5 className="about-card-title">TECHNOLOGY</h5>
+              <p className="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
             </div>
           </div>
-          <div class="about-card">
+          <div className="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,21 +145,21 @@ export default function AboutUs() {
                   d="M152,208V160a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v48a8,8,0,0,1-8,8H48a8,8,0,0,1-8-8V115.5a8.3,8.3,0,0,1,2.6-5.9l80-72.7a8,8,0,0,1,10.8,0l80,72.7a8.3,8.3,0,0,1,2.6,5.9V208a8,8,0,0,1-8,8H160A8,8,0,0,1,152,208Z"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></path>
               </svg>
             </div>
-            <div class="about-card-body">
-              <h5 class="about-card-title">LIFESTYLE</h5>
-              <p class="about-card-text text-subject">
+            <div className="about-card-body">
+              <h5 className="about-card-title">LIFESTYLE</h5>
+              <p className="about-card-text text-subject">
                 This card has supporting text below as a natural lead-in to
                 additional content.
               </p>
             </div>
           </div>
-          <div class="about-card">
+          <div className="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -176,25 +176,25 @@ export default function AboutUs() {
                   y2="216"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <path
                   d="M144,216V40a8,8,0,0,0-8-8H40a8,8,0,0,0-8,8V216"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></path>
                 <path
                   d="M224,216V104a8,8,0,0,0-8-8H144"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></path>
                 <line
                   x1="64"
@@ -203,9 +203,9 @@ export default function AboutUs() {
                   y2="72"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="80"
@@ -214,9 +214,9 @@ export default function AboutUs() {
                   y2="136"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="64"
@@ -225,9 +225,9 @@ export default function AboutUs() {
                   y2="176"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="176"
@@ -236,9 +236,9 @@ export default function AboutUs() {
                   y2="176"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="176"
@@ -247,21 +247,21 @@ export default function AboutUs() {
                   y2="136"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
               </svg>
             </div>
-            <div class="about-card-body">
-              <h5 class="about-card-title">INFRASTRUCTURE</h5>
-              <p class="about-card-text text-subject">
+            <div className="about-card-body">
+              <h5 className="about-card-title">INFRASTRUCTURE</h5>
+              <p className="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
             </div>
           </div>
-          <div class="about-card">
+          <div className="about-card">
             <div className="icon-1">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -278,9 +278,9 @@ export default function AboutUs() {
                   y2="72"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="128"
@@ -289,17 +289,17 @@ export default function AboutUs() {
                   y2="128"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <path
                   d="M140,60,50.3,149.7a7.9,7.9,0,0,0-2.3,5.6V208h52.7a7.9,7.9,0,0,0,5.6-2.3L196,116"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></path>
                 <line
                   x1="102"
@@ -308,9 +308,9 @@ export default function AboutUs() {
                   y2="124"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="74"
@@ -319,9 +319,9 @@ export default function AboutUs() {
                   y2="152"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="168"
@@ -330,9 +330,9 @@ export default function AboutUs() {
                   y2="48"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
                 <line
                   x1="48"
@@ -341,15 +341,15 @@ export default function AboutUs() {
                   y2="232"
                   fill="none"
                   stroke="#000000"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="16"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="16"
                 ></line>
               </svg>
             </div>
-            <div class="about-card-body">
-              <h5 class="about-card-title">HOSPITALITY</h5>
-              <p class="about-card-text text-subject">
+            <div className="about-card-body">
+              <h5 className="about-card-title">HOSPITALITY</h5>
+              <p className="about-card-text text-subject">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -366,42 +366,42 @@ export default function AboutUs() {
         <div className="our-team">
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>
           </div>
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>
           </div>
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>
           </div>
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>
           </div>
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>
           </div>
           <div className="our-team-members">
             <div className="team-member-img">
-              <img class="member-img" src="..." alt="member-img" />
+              <img className="member-img" src="..." alt="member-img" />
             </div>
             <div className="team-member-name">member name</div>
             <div className="team-member-posting">member posting</div>

@@ -53,9 +53,9 @@ export default function Services() {
                         y2="208"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <line
                         x1="32"
@@ -64,9 +64,9 @@ export default function Services() {
                         y2="104"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <rect
                         x="32"
@@ -76,9 +76,9 @@ export default function Services() {
                         rx="8"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                     </svg>
                   </div>
@@ -105,17 +105,17 @@ export default function Services() {
                         rx="8"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <path
                         d="M64,80V56a8,8,0,0,1,8-8H216a8,8,0,0,1,8,8V168a8,8,0,0,1-8,8H192"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                       <line
                         x1="32"
@@ -124,9 +124,9 @@ export default function Services() {
                         y2="112"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                     </svg>
                   </div>
@@ -147,17 +147,17 @@ export default function Services() {
                         points="160 80 192 80 192 112"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></polyline>
                       <polyline
                         points="96 176 64 176 64 144"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></polyline>
                       <rect
                         x="32"
@@ -167,9 +167,9 @@ export default function Services() {
                         rx="8"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                     </svg>
                   </div>
@@ -196,9 +196,9 @@ export default function Services() {
                         rx="8"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <circle cx="68" cy="84" r="12"></circle>
                       <circle cx="108" cy="84" r="12"></circle>
@@ -223,9 +223,9 @@ export default function Services() {
                         d="M184,184H69.8L41.9,30.6A8,8,0,0,0,34.1,24H16"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                       <circle
                         cx="80"
@@ -233,9 +233,9 @@ export default function Services() {
                         r="20"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></circle>
                       <circle
                         cx="184"
@@ -243,17 +243,17 @@ export default function Services() {
                         r="20"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></circle>
                       <path
                         d="M62.5,144H188.1a15.9,15.9,0,0,0,15.7-13.1L216,64H48"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                     </svg>
                   </div>
@@ -280,9 +280,9 @@ export default function Services() {
                         rx="16"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <line
                         x1="64"
@@ -291,9 +291,9 @@ export default function Services() {
                         y2="56"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <line
                         x1="64"
@@ -302,9 +302,9 @@ export default function Services() {
                         y2="200"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                     </svg>
                   </div>

@@ -3,6 +3,54 @@ import "./ContactUs.css";
 import Footer from "../../Components/Footer";
 
 export default function ContactUs() {
+  // const initialValues = { fullName: "", email: "", phone: "", message: "" };
+  // const [formValues, setFormValues] = useState(initialValues);
+  // const [formErrors, setFormErrors] = useState({});
+  // const [isSubmit, setIsSubmit] = useState(false);
+
+  // const handleChange = (e) => {
+  //   const { name, value } = e.target;
+  //   setFormValues({ ...formValues, [name]: value });
+  //   // e.preventDefault();
+  // };
+
+  // const handleSubmit = (e) => {
+  //   setIsSubmit(true);
+  //   setFormErrors(validate(formValues));
+  //   e.preventDefault();
+  // };
+
+  // useEffect((e) => {
+  //   // console.log(formErrors);
+  //   if (Object.keys(formErrors).length === 0 && isSubmit) {
+  //     console.log(formValues);
+  //   }
+  // });
+  // const validate = (values) => {
+  //   const errors = {};
+
+  //   if (!values.fullName && !values.email && !values.phone && !values.message) {
+  //     errors.form = "fill all the fields";
+  //   }
+  //   if (!values.fullName) {
+  //     errors.fullName = "Full name is required";
+  //   }
+  //   if (!values.email) {
+  //     errors.email = "Email is required";
+  //   }
+  //   if (!values.phone) {
+  //     errors.phone = "Phone number is required";
+  //   } else if (values.phone.length < 10) {
+  //     errors.phone = "Phone number must be correct";
+  //   } else if (values.phone.length > 10) {
+  //     errors.phone = "Phone number must be correct";
+  //   }
+  //   if (!values.message) {
+  //     errors.message = "Message is required";
+  //   }
+  //   return errors;
+  // };
+
   return (
     <div className="contact-us">
       <div className="contact-header-page">
@@ -48,7 +96,7 @@ export default function ContactUs() {
                       height="40"
                       fill="#000000"
                       viewBox="0 0 256 256"
-                      class="phone-icon"
+                      className="phone-icon"
                     >
                       <rect width="256" height="256" fill="none"></rect>
                       <rect
@@ -59,9 +107,9 @@ export default function ContactUs() {
                         rx="16"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <line
                         x1="64"
@@ -70,9 +118,9 @@ export default function ContactUs() {
                         y2="56"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <line
                         x1="64"
@@ -81,9 +129,9 @@ export default function ContactUs() {
                         y2="200"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                     </svg>
                   </div>
@@ -112,7 +160,7 @@ export default function ContactUs() {
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
                       height="40"
-                      class="social-icon"
+                      className="social-icon"
                       fill="#000000"
                       viewBox="0 0 256 256"
                     >
@@ -123,17 +171,17 @@ export default function ContactUs() {
                         r="96"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></circle>
                       <path
                         d="M168,88H152a23.9,23.9,0,0,0-24,24V224"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                       <line
                         x1="96"
@@ -142,9 +190,9 @@ export default function ContactUs() {
                         y2="144"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                     </svg>
                   </div>
@@ -153,7 +201,7 @@ export default function ContactUs() {
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
                       height="40"
-                      class="social-icon"
+                      className="social-icon"
                       fill="#000000"
                       viewBox="0 0 256 256"
                     >
@@ -164,8 +212,8 @@ export default function ContactUs() {
                         r="40"
                         fill="none"
                         stroke="#000000"
-                        stroke-miterlimit="10"
-                        stroke-width="16"
+                        strokeMiterlimit="10"
+                        strokeWidth="16"
                       ></circle>
                       <rect
                         x="36"
@@ -175,9 +223,9 @@ export default function ContactUs() {
                         rx="48"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <circle cx="180" cy="76" r="12"></circle>
                     </svg>
@@ -187,7 +235,7 @@ export default function ContactUs() {
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
                       height="40"
-                      class="social-icon"
+                      className="social-icon"
                       fill="#000000"
                       viewBox="0 0 256 256"
                     >
@@ -200,9 +248,9 @@ export default function ContactUs() {
                         rx="8"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></rect>
                       <line
                         x1="120"
@@ -211,9 +259,9 @@ export default function ContactUs() {
                         y2="176"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <line
                         x1="88"
@@ -222,17 +270,17 @@ export default function ContactUs() {
                         y2="176"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></line>
                       <path
                         d="M120,140a28,28,0,0,1,56,0v36"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                       <circle cx="88" cy="80" r="12"></circle>
                     </svg>
@@ -242,7 +290,7 @@ export default function ContactUs() {
                       xmlns="http://www.w3.org/2000/svg"
                       width="40"
                       height="40"
-                      class="social-icon"
+                      className="social-icon"
                       fill="#000000"
                       viewBox="0 0 256 256"
                     >
@@ -251,9 +299,9 @@ export default function ContactUs() {
                         d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z"
                         fill="none"
                         stroke="#000000"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="16"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="16"
                       ></path>
                     </svg>
                   </div>
@@ -261,42 +309,68 @@ export default function ContactUs() {
               </div>
             </div>
             <div className="contact-form">
-              <form>
-                <div class="form-group mb-3">
+              <form
+                /*onSubmit={handleSubmit}*/ method="post"
+                action="https://formsubmit.co/parthibanselvaraj01@gmail.com"
+              >
+                <div className="form-group mb-3">
                   <input
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="FullName"
                     placeholder="Full Name"
+                    name="fullName"
+                    required
+                    // onChange={handleChange}
+                    // value={formValues.fullName}
                   />
+                  {/* <p className="Errors">{formErrors.fullName}</p> */}
                 </div>
-                <div class="form-group mb-3">
+                <div className="form-group mb-3">
                   <input
                     type="email"
-                    class="form-control"
+                    className="form-control"
                     id="Email"
                     placeholder="Email"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    title="Enter a valid email address"
+                    name="email"
+                    required
+                    // onChange={handleChange}
+                    // value={formValues.email}
                   />
+                  {/* <p className="Errors">{formErrors.email}</p> */}
                 </div>
-                <div class="form-group mb-3">
+                <div className="form-group mb-3">
                   <input
-                    type="text"
-                    class="form-control"
+                    type="number"
+                    className="form-control"
                     id="Phone"
                     placeholder="Phone No"
+                    name="phone"
+                    required
+                    // onChange={handleChange}
+                    // value={formValues.phone}
                   />
+                  {/* <p className="Errors">{formErrors.phone}</p> */}
                 </div>
-                <div class="form-group mb-3">
+                <div className="form-group mb-3">
                   <textarea
                     type="text"
-                    class="form-control"
+                    className="form-control"
                     id="Message"
                     placeholder="Message"
+                    name="message"
+                    required
+                    // onChange={handleChange}
+                    // value={formValues.message}
                   />
+                  {/* <p className="Errors">{formErrors.message}</p> */}
                 </div>
-                <div class="form-group row">
-                  <div class="col-sm-10">
-                    <button type="submit" class="contact-btn">
+                {/* <p className="Errors">{formErrors.form}</p> */}
+                <div className="form-group row">
+                  <div className="col-sm-10">
+                    <button type="submit" value="Send" className="contact-btn">
                       Send
                     </button>
                   </div>

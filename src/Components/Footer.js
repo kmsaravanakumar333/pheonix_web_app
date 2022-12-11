@@ -11,8 +11,8 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="footer">
-      <div class="row align-items-start justify-content-between">
-        <div class="col">
+      <div className="row align-items-start justify-content-between">
+        <div className="col">
           <div
             className="company-title"
             // style={{ fontSize: "30px", fontWeight: "600" }}
@@ -34,7 +34,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div class="col footer-col">
+        <div className="col footer-col">
           <div className="link-title" style={{ fontSize: "20px" }}>
             Useful Links
           </div>

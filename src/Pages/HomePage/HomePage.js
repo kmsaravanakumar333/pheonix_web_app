@@ -1,6 +1,5 @@
 import React from "react";
 import question from "../../Assets/question.jpg";
-import fullLogo from "../../Assets/fullLogo.png";
 import "./HomePage.css";
 
 import angular from "../../Assets/angular.png";
@@ -21,10 +20,6 @@ import mobile from "../../Assets/mobile.png";
 import computer from "../../Assets/computer.png";
 import analysis from "../../Assets/analysis.png";
 import usage from "../../Assets/usage.png";
-
-import mobile1 from "../../Assets/mobile1.png";
-import location from "../../Assets/location.png";
-import mail from "../../Assets/mail.png";
 
 import { NavLink } from "react-router-dom";
 import Footer from "../../Components/Footer";
@@ -47,15 +42,15 @@ export default function HomePage() {
       </div>
       <div className="who-we-are">
         <div className="title-1">WHO WE ARE?</div>
-        <div class="who-we-are-section">
-          <div class="subtitle-1">
+        <div className="who-we-are-section">
+          <div className="subtitle-1">
             We are Web and Mobile Application development company that started
             off with a vision, to help every organization to grow as a business
             while helping them automate their business processes. Our
             combination of modern and practical designs is what distinguishes us
             from the others.
           </div>
-          <div class="who-we-are-img">
+          <div className="who-we-are-img">
             <img className="who-img" src={question} alt="" />
           </div>
         </div>
@@ -102,76 +97,78 @@ export default function HomePage() {
         <div className="services-section-grid">
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={mobile} class="card-img-top" alt="" />
+              <img src={mobile} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1 ">Mobile Application Development</p>
+              <p className="card-text text-1 ">
+                Mobile Application Development
+              </p>
             </div>
           </div>
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={computer} class="card-img-top" alt="" />
+              <img src={computer} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Web Application Development </p>
+              <p className="card-text text-1">Web Application Development </p>
             </div>
           </div>
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={analysis} class="card-img-top" alt="" />
+              <img src={analysis} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Analysis and Re-engineering</p>
-            </div>
-          </div>
-
-          <div className="service-section-grid-items">
-            <div className="service-grid-item-img">
-              <img src={pencil} class="card-img-top" alt="" />
-            </div>
-            <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">UI/UX Design</p>
-            </div>
-          </div>
-          <div className="service-section-grid-items">
-            <div className="service-grid-item-img">
-              <img src={clapboard} class="card-img-top" alt="" />
-            </div>
-            <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Branding Identity</p>
-            </div>
-          </div>
-          <div className="service-section-grid-items">
-            <div className="service-grid-item-img">
-              <img src={bulb} class="card-img-top" alt="" />
-            </div>
-            <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Creative Idea</p>
+              <p className="card-text text-1">Analysis and Re-engineering</p>
             </div>
           </div>
 
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={usage} class="card-img-top" alt="" />
+              <img src={pencil} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Easy to Use</p>
+              <p className="card-text text-1">UI/UX Design</p>
             </div>
           </div>
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={growth} class="card-img-top" alt="" />
+              <img src={clapboard} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Dynamic Growth</p>
+              <p className="card-text text-1">Branding Identity</p>
             </div>
           </div>
           <div className="service-section-grid-items">
             <div className="service-grid-item-img">
-              <img src={headphone} class="card-img-top" alt="" />
+              <img src={bulb} className="card-img-top" alt="" />
             </div>
             <div className="service-grid-item-name-tag">
-              <p class="card-text text-1">Friendly Support</p>
+              <p className="card-text text-1">Creative Idea</p>
+            </div>
+          </div>
+
+          <div className="service-section-grid-items">
+            <div className="service-grid-item-img">
+              <img src={usage} className="card-img-top" alt="" />
+            </div>
+            <div className="service-grid-item-name-tag">
+              <p className="card-text text-1">Easy to Use</p>
+            </div>
+          </div>
+          <div className="service-section-grid-items">
+            <div className="service-grid-item-img">
+              <img src={growth} className="card-img-top" alt="" />
+            </div>
+            <div className="service-grid-item-name-tag">
+              <p className="card-text text-1">Dynamic Growth</p>
+            </div>
+          </div>
+          <div className="service-section-grid-items">
+            <div className="service-grid-item-img">
+              <img src={headphone} className="card-img-top" alt="" />
+            </div>
+            <div className="service-grid-item-name-tag">
+              <p className="card-text text-1">Friendly Support</p>
             </div>
           </div>
         </div>
