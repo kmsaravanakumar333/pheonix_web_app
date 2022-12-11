@@ -1,14 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .banner {
-  background-image: url('../../Assets/banner2.jpg');
+  background-image: url("../../Assets/banner2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 75vh;
+  width: auto;
   text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 50px;
   text-align: center;
   font-weight: 600;
   color: darkslateblue;
@@ -16,12 +21,16 @@
   line-height: 4rem;
 }
 
+.title {
+  font-size: 50px;
+}
+
 .subtitle {
   font-size: 15px;
 }
 
 .btn-contact {
-  background-color: #F56363;
+  background-color: #f56363;
   border: none;
   border-radius: 10px;
   font-size: 30px;
@@ -31,7 +40,7 @@
 }
 
 .btn-send {
-  background-color: #F56363;
+  background-color: #f56363;
   border: none;
   border-radius: 10px;
   font-size: 20px;
@@ -40,6 +49,20 @@
   color: aliceblue;
 }
 
+/* who we are section */
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  gap: 10vh;
+  margin: 10vh auto;
+}
+.who-we-are-section {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  gap: 5vw;
+  width: 80vw;
+}
 .title-1 {
   display: flex;
   justify-content: center;
@@ -51,95 +74,240 @@
 .subtitle-1 {
   text-align: justify;
 }
-
 .who-img {
-  margin-left: 17rem;
+  width: 25vw;
+  height: 30vh;
 }
-
+/* we are pro section */
+.we-are-pro-div {
+  width: 96vw;
+  margin: 10vh auto;
+}
 .we-are-pro {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  color: cadetblue;
-  margin-bottom: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 4vh 3vw;
+  justify-content: center;
+  width: 80vw;
+  margin: 0 auto;
 }
-
 .tools {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border: #F56363;
-  border-style: dashed;
-  border-width: 2px;
-  width: 9rem;
-  padding: 1rem 0;
+  margin: 0 auto;
+  width: 180px;
+  padding: 1vh 1vw;
+  color: cadetblue;
   border-radius: 10px;
+  border: 2px dashed #f56363;
 }
-
-p {
-  margin-bottom: 0 !important;
-}
-
 .tool-logo {
   height: 50px;
 }
 
-.card-img-top {
-  height: 50px;
-  width: 50px;
-  margin-top: 2rem;
+/* our service section */
+.our-services-section {
+  width: 96vw;
+  margin: 10vh auto;
 }
 
-.card:hover .card-img-top {
-  filter: invert(58%) sepia(73%) saturate(1529%) hue-rotate(319deg) brightness(97%) contrast(97%);
+.services-section-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 80vw;
+  margin: 0 auto;
+  gap: 5vh 3vw;
 }
-
-.card-col {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.card-content {
+.service-section-grid-items {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  gap: 2vh;
+  text-align: center;
 }
+/* FOR MOBILE PHONES */
 
-.legend {
-  color: darkslateblue;
-}
-
-.card-1 {
-  border: none;
-}
-
-
-@media screen and (max-width: 480px) {
+@media (min-width: 320px) {
   .banner {
-    background-size: cover;
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 90vh;
+  }
+
+  .title {
     font-size: 20px;
-    line-height: normal;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.888);
+    margin-bottom: 40px;
+    margin-top: 20px;
+  }
+
+  .btn-contact {
+    font-size: 18px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    margin: 5px 0;
   }
 
   .subtitle {
-    font-size: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.1;
+    color: #efafafe1;
   }
 
+  .title-1 {
+    font-size: 30px;
+  }
+
+  .card-img-top {
+    height: 30px;
+    width: 30px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    margin: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .we-are-pro {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .tools {
+    width: 120px;
+  }
+  .tool-logo-name {
+    font-size: 12px;
+  }
+  .services-section-grid {
+    grid-template-columns: 1fr;
+    gap: 10vh;
+    margin: 3vh auto;
+  }
+  .who-we-are {
+    gap: 0;
+    margin: 3vh auto;
+  }
+  .who-we-are-section {
+    grid-template-columns: 1fr;
+    margin: 5vh 3vw;
+  }
   .who-img {
-    margin-left: 0;
-    padding-left: 0 35px;
     width: 100%;
+  }
+  .title-1 {
+    font-size: 24px;
+  }
+  .subtitle-1 {
+    font-size: 14px;
+    width: 100%;
+    word-spacing: normal;
+  }
+}
+/* FOR LARGE MOBILE PHONES AND TABLETS */
+@media (min-width: 481px) and (max-width: 768px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 90vh;
+  }
+  .title {
+    font-size: 30px;
+    line-height: 2;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.888);
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
+  .btn-contact {
+    font-size: 24px;
+    padding: 0px 20px;
+    border-radius: 40px;
+    margin: 5px 0;
+  }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.1;
+    color: #efafafe1;
+  }
+
+  .title-1 {
+    font-size: 36px;
   }
 
   .tools {
-    margin-bottom: 1rem;
+    width: 150px;
+  }
+}
+/* FOR SMALL LAPTOPS */
+@media (min-width: 768px) and (max-width: 1020px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
   }
 
-  .card-col-1 {
-    margin-bottom: 3rem;
+  .who-img {
+    height: 200px;
+    width: 300px;
+  }
+
+  .card-content {
+    width: 160px;
+    text-align: center;
+  }
+}
+/* FOR LARGE LAPTOPS */
+@media (min-width: 1021px) and (max-width: 1440px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .who-img {
+    margin-left: 80px;
+  }
+}
+/* FOR DESKTOPS */
+@media (min-width: 1440px) {
+  .banner {
+    background: url("../../Assets/banner2.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .title {
+    font-size: 44px;
+    margin-bottom: 100px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+  }
+
+  .who-img {
+    width: 480px;
+    margin-left: 80px;
+  }
+
+  .subtitle-1 {
+    line-height: 2;
+    word-spacing: 1.5;
   }
 }

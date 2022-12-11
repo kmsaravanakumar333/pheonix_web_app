@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* About page header */
+
+.header {
+  background: url("../../Assets/about1.jpg") no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  margin-top: 70px;
+}
+.text-box {
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.primary-heading {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.main-heading {
+  display: block;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+.sub-heading {
+  display: block;
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 3px;
+  color: #f3baba;
+  letter-spacing: 1px;
+}
+
+/* About page section 2nd-view */
+
+.article {
+  margin-top: 40px;
+}
+.article-1 {
+  text-align: center;
+  width: 60vw;
+  margin: 0 auto;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.primary-subtitle-1 {
+  display: block;
+  font-size: 2.5vh;
+}
+
+/* About page section 3rd-view */
+
+.about-section-3 {
+  width: 96vw;
+  margin: 10vh auto;
+  text-align: center;
+}
+.about-card-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3vw;
+  width: 80vw;
+  margin: 0 auto;
+}
+.about-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.about-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+.about-card-title {
+  font-size: 4vh;
+}
+.about-card-text {
+  font-size: 2.2vh;
+}
+
+/* About page section 4th-view */
+
+.about-footer {
+  margin: 10vh auto;
+  width: 96vw;
+}
+
+.primary-title-2 {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.our-team {
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5vh 3vw;
+  margin: 0 auto;
+}
+.our-team-members {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding: 1.5vh 2vw;
+  align-items: center;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  background-color: #fef6f6;
+  border-radius: 10px;
+}
+.team-member-img {
+  width: 13vw;
+  height: 26vh;
+  padding: 0.2vh;
+  border: 2px solid grey;
+}
+.team-member-name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.8vh;
+}
+.team-member-posting {
+  font-size: 2vh;
+}
+
+@media (min-width: 320px) {
+  .main-heading {
+    font-size: 24px;
+  }
+  .sub-heading {
+    font-size: 14px;
+  }
+  .article {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 38px;
+  }
+  .sub-heading {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1024px) {
+  .main-heading {
+    font-size: 48px;
+  }
+  .sub-heading {
+    font-size: 20px;
+  }
+  .article {
+    margin: 16px;
+  }
+  .header {
+    margin-bottom: 40px;
+  }
+  .team-member-img {
+    width: 13vw;
+    height: 36vh;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .about-card-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .about-card-section {
+    grid-template-columns: 1fr;
+  }
+  .our-team {
+    grid-template-columns: 1fr;
+  }
+  .team-member-img {
+    width: 40vw;
+    height: 30vh;
+  }
+}

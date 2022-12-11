@@ -1,3 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100vw;
+  margin: 0;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+}
+.tile-name {
+  font-size: 14px;
+}
 .logo {
   margin-top: -8px;
   margin-right: -12px;
@@ -20,23 +39,20 @@ a {
   font-size: 25px;
 }
 
-
 .navbar-brand {
   font-weight: 600;
 }
 
 .navbar-nav .nav-link.active,
-.navbar-nav .show>.nav-link {
-  background-color: #F56363;
+.navbar-nav .show > .nav-link {
+  background-color: #f56363;
   color: white;
   height: 38px;
   border-radius: 8px;
 }
-
-.footer {
-  height: 50vh;
-  background-color: cadetblue;
-  padding: 3rem 3rem;
+.nav-item:hover {
+  text-decoration: underline 2px;
+  text-underline-position: under;
 }
 
 .social-icon {
@@ -44,7 +60,7 @@ a {
 }
 
 .social {
-  background-color: #F56363;
+  background-color: #f56363;
   padding: 1rem;
   margin: 0 1rem;
   border-radius: 5rem;
@@ -52,7 +68,8 @@ a {
 }
 
 .social:hover .social-icon {
-  filter: invert(94%) sepia(60%) saturate(6630%) hue-rotate(179deg) brightness(109%) contrast(109%);
+  filter: invert(94%) sepia(60%) saturate(6630%) hue-rotate(179deg)
+    brightness(109%) contrast(109%);
 }
 
 .footer-col {
@@ -71,35 +88,121 @@ a {
   color: aliceblue;
 }
 
-@media screen and (min-width: 992px) {
-  #navbarNav {
-    display: flex;
-    align-items: center;
-    justify-content: end;
+@media (min-width: 320px) {
+  .navbar-brand {
+    font-size: 18px;
+    margin: 0 !important;
   }
 
-  .navbar {
-    background-color: aliceblue;
-    align-items: baseline;
-    height: 4.5rem;
+  .logo {
+    width: 60px;
+    height: 50px;
+    margin-left: -30px !important;
+  }
+
+  .header-bar {
+    display: flex;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    padding: 0;
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
   }
 }
 
-@media screen and (max-width: 480px) {
-  .company-title {
-    text-align: center;
+@media (min-width: 375px) {
+  .navbar-brand {
+    font-size: 18px;
+    margin-left: 30px !important;
   }
 
-  .social-icon {
-    height: 15px;
+  .logo {
+    width: 60px;
+    height: 40px;
+    margin-left: -40px !important;
+  }
+}
+
+@media (min-width: 481px) {
+  .navbar-brand {
+    font-size: 32px;
+    margin: 0;
   }
 
-  .social {
-    background-color: #F56363;
-    padding: .5rem;
-    margin: 0 .5rem;
-    width: 2rem;
-    border-radius: 5rem;
-    cursor: pointer;
+  .logo {
+    width: 120px;
+    height: 70px;
+    margin-left: -30px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 20px;
+    margin-right: 20px !important;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: -40px !important;
+  }
+
+  .nav-item {
+    padding: 0;
+    margin: 0 !important;
+    align-items: center !important;
+  }
+
+  .tile-name {
+    font-size: 14px;
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 1021px) {
+  .navbar-brand {
+    font-size: 28px;
+    width: 380px !important;
+    margin-right: 50px;
+    margin-left: 10px !important;
+  }
+  .tile-name {
+    font-size: 14px;
+  }
+  .logo {
+    width: 100px;
+    height: 60px;
+    margin-left: -30px !important;
+  }
+
+  .tile-name {
+    margin: 0 10px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  navbar-brand {
+    font-size: 28px;
+    width: 440px !important;
+    margin-left: 30px;
+    margin-right: 80px !important;
+  }
+
+  .tile-name {
+    margin: 0 30px !important;
+    font-size: 18px;
+  }
+  .nav-link {
+    margin-left: 20px;
   }
 }
